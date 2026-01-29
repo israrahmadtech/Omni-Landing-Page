@@ -3,7 +3,7 @@ import purposeIcon from "../../assets/icons/purpose-icon.png"
 
 function PurposeSection() {
     return (
-        <section className="px-8 sm:px-10 lg:px-20 bg-[#140B09] pt-10 md:pt-0">
+        <section id="platform" className="px-8 sm:px-10 lg:px-20 bg-[#140B09] pt-10 md:pt-0">
             <div className="my-container flex flex-col lg:flex-row items-center gap-5 sm:gap-10 lg:gap-20">
 
                 {/* Left Content */}

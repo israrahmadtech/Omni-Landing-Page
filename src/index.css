@@ -1,11 +1,7 @@
 @import "tailwindcss";
 
-.brand-text-color {
-  background-color: #EF6A1F;
-}
-
-.brand-bg-color {
-  background-color: #EF6A1F;
+html {
+  scroll-behavior: smooth;
 }
 
 .my-container {
@@ -14,8 +10,7 @@
 }
 
 @media (max-width: 500px) {
-  .my-container{
+  .my-container {
     max-width: 98%;
-    /* color: #ef5d1a4d; */
   }
 }

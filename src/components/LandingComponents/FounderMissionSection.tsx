@@ -20,11 +20,11 @@ const studentPoints = [
 
 const FounderMissionSection: React.FC = () => {
     return (
-        <section className="bg-[#140B09] px-6 sm:px-10 lg:px-20 py-20 text-white">
+        <section id="vision" className="bg-[#140B09] px-6 sm:px-10 lg:px-20 py-20 text-white">
             <div className="max-w-7xl mx-auto flex flex-col items-center">
 
                 {/* Badge */}
-                <GlassCard className="px-5 py-2 rounded-full mb-6">
+                <GlassCard className="px-2 sm:px-5 py-2 rounded-full mb-3 sm:mb-6">
                     <span className="text-orange-500 text-xs sm:text-sm font-semibold uppercase tracking-wide">
                         Hector's Mission Is Simple But Powerful
                     </span>

@@ -20,12 +20,12 @@ function Header() {
                     {/* Desktop Nav */}
                     <nav className="flex-1 hidden xl:block">
                         <ul className="flex items-center gap-8 text-white/80 w-fit mx-auto">
-                            <li><a href="#home" className="hover:text-white">Home</a></li>
+                            <li><a href="#" className="hover:text-white">Home</a></li>
                             <li><a href="#journey" className="hover:text-white">The Journey</a></li>
                             <li><a href="#vision" className="hover:text-white">The Vision</a></li>
                             <li><a href="#platform" className="hover:text-white">The Platform</a></li>
                             <li><a href="#impact" className="hover:text-white">Impact</a></li>
-                            <li><a href="#join" className="hover:text-white">Join OMNI</a></li>
+                            <li><a href="#about" className="hover:text-white">Join OMNI</a></li>
                         </ul>
                     </nav>
 
@@ -77,12 +77,12 @@ function Header() {
 
                 {/* Sidebar Links */}
                 <ul className="flex flex-col gap-6 text-white/80">
-                    <li><a className="hover:text-white" onClick={() => setOpen(false)} href="#home">Home</a></li>
+                    <li><a className="hover:text-white" onClick={() => setOpen(false)} href="#">Home</a></li>
                     <li><a className="hover:text-white" onClick={() => setOpen(false)} href="#journey">The Journey</a></li>
                     <li><a className="hover:text-white" onClick={() => setOpen(false)} href="#vision">The Vision</a></li>
                     <li><a className="hover:text-white" onClick={() => setOpen(false)} href="#platform">The Platform</a></li>
                     <li><a className="hover:text-white" onClick={() => setOpen(false)} href="#impact">Impact</a></li>
-                    <li><a className="hover:text-white" onClick={() => setOpen(false)} href="#join">Join OMNI</a></li>
+                    <li><a className="hover:text-white" onClick={() => setOpen(false)} href="#about">Join OMNI</a></li>
                 </ul>
 
                 {/* Sidebar CTA */}

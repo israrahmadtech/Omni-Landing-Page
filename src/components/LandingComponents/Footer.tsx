@@ -28,19 +28,19 @@ const Footer: React.FC = () => {
                     <div className="flex flex-col justify-end">
                         <nav className="flex flex-wrap gap-x-8 gap-y-4 text-sm sm:text-base">
                             {[
-                                "Home",
-                                "The Journey",
-                                "The Vision",
-                                "The Platform",
-                                "Impact",
-                                "Join OMNI",
+                                { label: "Home", id: "" },
+                                { label: "The Journey", id: "journey" },
+                                { label: "The Vision", id: "vision" },
+                                { label: "The Platform", id: "platform" },
+                                { label: "Impact", id: "impact" },
+                                { label: "Join OMNI", id: "about" },
                             ].map((item) => (
                                 <a
-                                    key={item}
-                                    href="#"
+                                    key={item.id}
+                                    href={`#${item.id}`}
                                     className="text-gray-300 hover:text-white transition-colors"
                                 >
-                                    {item}
+                                    {item.label}
                                 </a>
                             ))}
                         </nav>
