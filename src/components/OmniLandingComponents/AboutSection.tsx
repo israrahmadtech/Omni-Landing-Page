@@ -1,6 +1,5 @@
 import Button from "./Button";
 import GradientCard from "./GradientCard";
-import { Dot } from "lucide-react";
 import aboutImg from "../../assets/images/omni-about.png"; // 👈 apni image ka path
 
 const stats = [

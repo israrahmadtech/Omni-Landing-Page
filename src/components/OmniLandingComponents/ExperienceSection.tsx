@@ -1,5 +1,4 @@
 import Button from "./Button";
-import GradientCard from "./GradientCard";
 
 function ExperienceSection() {
     return (
