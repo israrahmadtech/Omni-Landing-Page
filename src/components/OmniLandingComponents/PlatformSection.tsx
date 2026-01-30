@@ -31,7 +31,6 @@ function PlatformSection() {
                 {/* FEATURES GRID */}
                 <div className="mt-20 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
                     {platformFeatures.map((item, index) => {
-                        const Icon = item.icon;
                         return (
                             <GradientCard
                                 key={index}
