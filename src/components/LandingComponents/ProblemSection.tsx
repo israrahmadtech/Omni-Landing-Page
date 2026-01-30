@@ -1,6 +1,6 @@
 import React from "react";
 import { Users, TrendingUp, Target, Lightbulb } from "lucide-react";
-import GlassCard from "../GlassEffectCard/GlassEffectCard";
+import GlassCard from "./GlassEffectCard";
 
 const problems = [
     {

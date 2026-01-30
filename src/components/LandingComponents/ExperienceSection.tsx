@@ -1,5 +1,5 @@
 import React from "react";
-import GlassCard from "../GlassEffectCard/GlassEffectCard";
+import GlassCard from "./GlassEffectCard";
 
 const experiences = [
     { id: 1, text: "Teaching students" },

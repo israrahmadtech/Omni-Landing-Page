@@ -32,7 +32,7 @@ function Header() {
                     {/* Desktop CTA */}
                     <div className="hidden xl:block">
                         <Link to="/">
-                            <Button variant="primary" className="cursor-pointer">Join OMNI CONNECTS</Button>
+                            <Button variant="primary" className="bg-orange-500 hover:bg-orange-600 cursor-pointer">Join OMNI CONNECTS</Button>
                         </Link>
                     </div>
 

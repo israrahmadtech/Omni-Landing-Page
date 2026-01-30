@@ -9,8 +9,8 @@ html {
   margin: 0 auto;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .my-container {
     max-width: 98%;
   }
-}
+} */

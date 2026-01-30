@@ -9,7 +9,7 @@ import {
     ShieldCheck,
     BadgeCheck,
 } from "lucide-react";
-import GlassCard from "../GlassEffectCard/GlassEffectCard";
+import GlassCard from "./GlassEffectCard";
 import Button from "./Button";
 import { Link } from "react-router-dom";
 

@@ -1,6 +1,6 @@
 import { Users, Book, Award, Mic } from 'lucide-react';
 import aboutImg from '../../assets/images/about-img.png'
-import GlassCard from '../GlassEffectCard/GlassEffectCard';
+import GlassCard from './GlassEffectCard';
 
 export default function AboutSection() {
     return (

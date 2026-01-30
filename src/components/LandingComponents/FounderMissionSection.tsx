@@ -1,6 +1,6 @@
 import React from "react";
 import { Check, Heart } from "lucide-react";
-import GlassCard from "../GlassEffectCard/GlassEffectCard";
+import GlassCard from "./GlassEffectCard";
 
 const schoolPoints = [
     "Real-world business systems",
