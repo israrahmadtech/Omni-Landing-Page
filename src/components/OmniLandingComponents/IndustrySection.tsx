@@ -1,7 +1,7 @@
-import barberImg from "../../assets/images/industry-img-1.jpg";
-import stylistImg from "../../assets/images/industry-img-2.jpg";
-import nailImg from "../../assets/images/industry-img-3.jpg";
-import wellnessImg from "../../assets/images/industry-img-4.jpg";
+import barberImg from "../../assets/images/industry-img-1.png";
+import stylistImg from "../../assets/images/industry-img-2.png";
+import nailImg from "../../assets/images/industry-img-3.png";
+import wellnessImg from "../../assets/images/industry-img-4.png";
 
 function IndustrySection() {
     return (
