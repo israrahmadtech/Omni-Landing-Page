@@ -10,7 +10,7 @@ function Header() {
     return (
         <>
             {/* HEADER */}
-            <header className="px-8 py-4 sm:py-6">
+            <header className="py-4 sm:py-6">
                 <div className="flex items-center justify-between">
 
                     {/* Logo */}

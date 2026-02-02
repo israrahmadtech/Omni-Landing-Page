@@ -13,8 +13,9 @@ function InfraStructureSection() {
             key={index}
             className="rounded-3xl p-8 sm:p-10 text-center w-full max-w-sm"
           >
-            <h3 className="text-2xl sm:text-3xl font-semibold text-black">
-              {item.title}
+            <h3 className="text-2xl sm:text-3xl 2xl:text-4xl font-semibold text-black">
+              {item.title.replace(".", "")}
+              <span className="text-orange-500 font-bold">.</span>
             </h3>
 
             <p className="mt-3 text-sm sm:text-base md:text-lg leading-relaxed text-black/50">
