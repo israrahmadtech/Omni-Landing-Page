@@ -11,7 +11,7 @@ const experiences = [
 
 const ExperienceSection: React.FC = () => {
     return (
-        <section className="my-container px-6 sm:px-10 lg:px-20 py-16 lg:py-28">
+        <section className="my-container sm:px-10 lg:px-20 py-16 lg:py-28">
             <div className="max-w-7xl mx-auto flex flex-col items-center gap-10">
 
                 {/* Heading */}

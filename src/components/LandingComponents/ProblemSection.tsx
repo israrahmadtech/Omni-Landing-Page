@@ -27,7 +27,7 @@ const problems = [
 
 const ProblemSection: React.FC = () => {
     return (
-        <section className="relative my-container px-6 sm:px-10 lg:px-20 py-12 lg:py-30">
+        <section className="relative my-container sm:px-10 lg:px-20 py-12 lg:py-30">
             <div className="max-w-7xl mx-auto flex flex-col gap-6">
 
                 {/* Small Button */}

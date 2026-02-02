@@ -9,7 +9,7 @@ function Header() {
     return (
         <>
             {/* HEADER */}
-            <header className="absolute top-0 left-0 right-0 z-50 px-8 py-6">
+            <header className="absolute top-0 left-0 right-0 z-50 py-6">
                 <div className="flex items-center justify-between">
 
                     {/* Logo */}
@@ -68,12 +68,14 @@ function Header() {
                 ${open ? "translate-x-0" : "-translate-x-full"}`}
             >
                 {/* Close */}
-                <button
-                    onClick={() => setOpen(false)}
-                    className="text-white mb-8 cursor-pointer"
-                >
-                    <X size={28} />
-                </button>
+                <div className="flex mb-8">
+                    <button
+                        onClick={() => setOpen(false)}
+                        className="text-white ms-auto cursor-pointer"
+                    >
+                        <X size={28} />
+                    </button>
+                </div>
 
                 {/* Sidebar Links */}
                 <ul className="flex flex-col gap-6 text-white/80">

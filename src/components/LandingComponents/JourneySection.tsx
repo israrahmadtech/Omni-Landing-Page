@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const HectorsJourneySection: React.FC = () => {
     return (
-        <section id="journey" className="bg-black px-6 sm:px-10 lg:px-20 py-24 text-white relative">
+        <section id="journey" className="bg-black my-container sm:px-10 lg:px-20 py-24 text-white relative">
             <div className="max-w-7xl mx-auto flex flex-col items-center">
 
                 {/* Badge */}

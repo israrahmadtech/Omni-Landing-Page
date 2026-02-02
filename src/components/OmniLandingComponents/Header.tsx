@@ -79,12 +79,14 @@ function Header() {
                 ${open ? "translate-x-0" : "-translate-x-full"}`}
             >
                 {/* Close */}
-                <button
-                    onClick={() => setOpen(false)}
-                    className="text-black mb-8 cursor-pointer"
-                >
-                    <X size={28} />
-                </button>
+                <div className="flex mb-8">
+                    <button
+                        onClick={() => setOpen(false)}
+                        className="ms-auto text-black cursor-pointer"
+                    >
+                        <X size={28} />
+                    </button>
+                </div>
 
                 {/* Sidebar Links */}
                 <ul className="flex flex-col gap-6 text-black/70">

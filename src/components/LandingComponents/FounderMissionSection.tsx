@@ -20,8 +20,8 @@ const studentPoints = [
 
 const FounderMissionSection: React.FC = () => {
     return (
-        <section id="vision" className="bg-[#140B09] px-6 sm:px-10 lg:px-20 py-20 text-white">
-            <div className="max-w-7xl mx-auto flex flex-col items-center">
+        <section id="vision" className="bg-[#140B09] sm:px-10 lg:px-20 py-20 text-white">
+            <div className="my-container max-w-7xl mx-auto flex flex-col items-center">
 
                 {/* Badge */}
                 <GlassCard className="px-2 sm:px-5 py-2 rounded-full mb-3 sm:mb-6">

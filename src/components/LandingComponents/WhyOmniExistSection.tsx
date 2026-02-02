@@ -54,7 +54,7 @@ const features: Feature[] = [
 
 const WhyOmniExistsSection: React.FC = () => {
     return (
-        <section id="impact" className="relative my-container px-6 sm:px-10 lg:px-20 py-16 text-white">
+        <section id="impact" className="relative my-container sm:px-10 lg:px-20 py-16 text-white">
             <div className="max-w-7xl mx-auto flex flex-col items-center">
 
                 {/* Small Badge */}

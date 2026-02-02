@@ -4,7 +4,7 @@ import GlassCard from './GlassEffectCard';
 
 export default function AboutSection() {
     return (
-        <section id='about' className="min-h-screen text-white p-8 md:p-16 md:py-40">
+        <section id='about' className="min-h-screen text-white py-8 md:p-16 md:py-40">
             <div className="my-container">
                 {/* Main Content Grid */}
                 <div className="grid xl:grid-cols-[500px_1fr] 2xl:grid-cols-[600px_1fr] items-start gap-20">

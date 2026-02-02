@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
                 <Header />
 
                 {/* Hero Content */}
-                <div className="relative z-10 px-8 pt-30 md:pt-20 pb-20 min-h-screen flex items-start md:items-center">
+                <div className="relative z-10 py-8 pt-30 md:pt-20 pb-20 min-h-screen flex items-start md:items-center">
                     <div className="flex justify-center items-center w-full">
                         {/* Left Content */}
                         <div className="relative space-y-8">
