@@ -10,13 +10,13 @@ function IndustrySection() {
                 <div className="my-container">
 
                     {/* Heading */}
-                    <h2 className="max-w-2xl text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight text-white">
+                    <h2 className="max-w-2xl text-4xl sm:text-6xl lg:text-7xl font-bold leading-tight text-white">
                         Built for the <br />
                         Entire <span className="text-orange-500">Industry</span>
                     </h2>
 
                     {/* Cards */}
-                    <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="mt-10 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                         {industries.map((item, index) => (
                             <div
                                 key={index}

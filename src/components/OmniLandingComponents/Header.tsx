@@ -14,7 +14,7 @@ function Header() {
                 <div className="flex items-center justify-between">
 
                     {/* Logo */}
-                    <div className="w-30">
+                    <div className="w-20 sm:w-25 md:w-30">
                         <img className="w-full" src={logo} alt="omni logo" />
                     </div>
 
@@ -34,7 +34,7 @@ function Header() {
                     {/* Desktop CTA */}
                     <div className="hidden xl:block">
                         <Link to="/">
-                            <Button icon={<ArrowRight size={20} />} variant="primary" className="bg-orange-500 hover:bg-orange-600 cursor-pointer xl:text-sm 2xl:text-lg">
+                            <Button icon={<ArrowRight size={20} />} variant="primary" className="text-white bg-orange-500 hover:bg-orange-600 cursor-pointer xl:text-sm 2xl:text-lg">
                                 Join OMNI CONNECTS
                             </Button>
                         </Link>
@@ -47,7 +47,7 @@ function Header() {
                         <Link to="/" className="hidden sm:flex">
                             <Button
                                 variant="primary"
-                                className="bg-orange-500 hover:bg-orange-600 px-4 py-2 text-sm"
+                                className="text-white bg-orange-500 hover:bg-orange-600 px-4 py-2 text-sm"
                             >
                                 Join OMNI Connects
                             </Button>
@@ -102,7 +102,7 @@ function Header() {
                     <Link to="/">
                         <Button
                             variant="primary"
-                            className="bg-orange-500 hover:bg-orange-600 cursor-pointer w-full"
+                            className="text-white bg-orange-500 hover:bg-orange-600 cursor-pointer w-full"
                         >
                             Join OMNI CONNECTS
                         </Button>

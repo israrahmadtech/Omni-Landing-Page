@@ -23,7 +23,7 @@ const Button: React.FC<ButtonProps> = ({
     const variantStyles = {
         primary:
             'px-4 py-2 text-sm md:px-6 md:py-3 md:text-base xl:px-8 xl:py-4 lg:text-lg ' +
-            'text-white shadow-md md:shadow-lg hover:shadow-xl',
+            'shadow-md md:shadow-lg hover:shadow-xl',
 
         secondary:
             'px-4 py-2 text-sm md:px-6 md:py-3 md:text-base ' +

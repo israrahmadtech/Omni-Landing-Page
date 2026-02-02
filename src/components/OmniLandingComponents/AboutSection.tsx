@@ -24,8 +24,8 @@ function AboutSection() {
                 <div className="grid lg:grid-cols-2 lg:items-center">
 
                     {/* LEFT — IMAGE */}
-                    <div className="relative pb-20 lg:pb-0 pe-0 lg:pe-20">
-                        <div className="h-full rounded-[90px] overflow-hidden border-20 border-white">
+                    <div className="relative pb-10 sm:pb-20 lg:pb-0 pe-0 lg:pe-20">
+                        <div className="h-full rounded-[50px] sm:rounded-[90px] overflow-hidden border-20 border-white">
                             <img src={aboutImg} alt="About OMNI" className="w-full h-full object-cover" />
                         </div>
                     </div>

@@ -3,11 +3,11 @@ import GradientCard from "./GradientCard"
 function InfraStructureSection() {
   return (
     <section id="platform" className="my-container py-20">
-      <h1 className="my-8 text-[30px] font-bold text-center tracking-tight leading-none text-black sm:text-[60px] lg:text-[80px]">
+      <h1 className="my-8 mb-0 sm:mb-8 text-[30px] font-bold text-center tracking-tight leading-none text-black sm:text-[60px] lg:text-[80px]">
         This is Not an App <span className="block text-orange-500">This is Infrastructure</span>
       </h1>
       {/* Cards */}
-      <div className="w-full px-4 flex justify-center flex-wrap gap-16 py-10">
+      <div className="w-full px-4 flex justify-center flex-wrap gap-10 sm:gap-16 py-10">
         {cardsData.map((item, index) => (
           <GradientCard
             key={index}

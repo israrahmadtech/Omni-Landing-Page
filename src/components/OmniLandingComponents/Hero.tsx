@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
                 <Header />
 
                 {/* Center Content */}
-                <div className="relative z-10 flex flex-col items-center px-6 mt-20 text-center">
+                <div className="relative z-10 flex flex-col items-center px-6 mt-10 sm:mt-20 text-center">
 
                     {/* Badge */}
                     <Button variant="tertiary" icon={<Dot className="relative scale-140" size={25} />} iconPosition={"left"}
@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
 
                     {/* CTAs */}
                     <div className="flex flex-col gap-4 sm:flex-row sm:gap-6">
-                        <Button variant="primary" className="bg-orange-500 hover:bg-orange-600">
+                        <Button variant="primary" className="bg-orange-500 hover:bg-orange-600 text-white">
                             Join OMNI Free
                         </Button>
 
@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
                         </Button>
                     </div>
 
-                    <div className="absolute -top-20 sm:top-0 left-0 lg:px-[20%] flex justify-between w-full">
+                    <div className="absolute -top-20 sm:top-0 left-0 lg:px-[20%] hidden sm:flex justify-between w-full">
                         <GradientIconCard icon={Heart} />
                         <GradientIconCard icon={Sparkles} />
                     </div>
