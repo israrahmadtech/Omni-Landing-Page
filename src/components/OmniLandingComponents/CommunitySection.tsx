@@ -1,6 +1,7 @@
 import { ArrowRight, CheckCircle2 } from 'lucide-react'
 import mobileImg from '../../assets/images/mobile-img.png'
 import Button from './Button'
+import { Link } from 'react-router-dom'
 
 function CommunitySection() {
     return (
@@ -47,9 +48,11 @@ function CommunitySection() {
                     </ul>
 
                     <div className="mt-10 2xl:mt-15">
-                        <Button icon={<ArrowRight size={20} />} variant="primary" className="bg-black text-white">
-                            EXPLORE THE COMMUNITY
-                        </Button>
+                        <Link to="/">
+                            <Button icon={<ArrowRight size={20} />} variant="primary" className="cursor-pointer bg-black text-white">
+                                EXPLORE THE COMMUNITY
+                            </Button>
+                        </Link>
                     </div>
                 </div>
 

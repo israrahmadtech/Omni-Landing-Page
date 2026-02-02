@@ -5,6 +5,7 @@ import { Dot } from "lucide-react";
 import { Sparkles, Heart } from "lucide-react";
 import GradientIconCard from "./GradientIconCard";
 import MockupSection from "./MockupSection";
+import { Link } from "react-router-dom";
 
 const Hero: React.FC = () => {
     return (
@@ -19,6 +20,7 @@ const Hero: React.FC = () => {
                 <div className="relative z-10 flex flex-col items-center px-6 mt-10 sm:mt-20 text-center">
 
                     {/* Badge */}
+
                     <Button variant="tertiary" icon={<Dot className="relative scale-140" size={25} />} iconPosition={"left"}
                         className="font-semibold bg-white text-orange-500 hover:bg-white py-2 md:pe-4 md:py-1 overflow-none"
                     >
@@ -39,16 +41,20 @@ const Hero: React.FC = () => {
 
                     {/* CTAs */}
                     <div className="flex flex-col gap-4 sm:flex-row sm:gap-6">
-                        <Button variant="primary" className="bg-orange-500 hover:bg-orange-600 text-white">
-                            Join OMNI Free
-                        </Button>
+                        <Link to="/">
+                            <Button variant="primary" className="cursor-pointer bg-orange-500 hover:bg-orange-600 text-white">
+                                Join OMNI Free
+                            </Button>
+                        </Link>
 
-                        <Button
-                            variant="secondary"
-                            className="bg-white text-orange-500 hover:bg-white"
-                        >
-                            Explore the Platform
-                        </Button>
+                        <Link to="/">
+                            <Button
+                                variant="secondary"
+                                className="cursor-pointer bg-white text-orange-500 hover:bg-white"
+                            >
+                                Explore the Platform
+                            </Button>
+                        </Link>
                     </div>
 
                     <div className="absolute -top-20 sm:top-0 left-0 lg:px-[20%] hidden sm:flex justify-between w-full">
@@ -58,7 +64,7 @@ const Hero: React.FC = () => {
                 </div>
 
                 {/* Mockups */}
-                <MockupSection/>
+                <MockupSection />
             </div>
 
             {/* Optional subtle vignette */}

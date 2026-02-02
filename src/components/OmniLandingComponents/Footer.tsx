@@ -24,12 +24,13 @@ function Footer() {
                         </h4>
 
                         <ul className="space-y-3 text-sm text-black/60">
-                            <li>About</li>
-                            <li>The Platform</li>
-                            <li>Who It’s For</li>
-                            <li>How It Works</li>
-                            <li>Community</li>
-                            <li>Business & Schools</li>
+                            <li><a href="#home" className="hover:text-black">Home</a></li>
+                            <li><a href="#about" className="hover:text-black">About</a></li>
+                            <li><a href="#platform" className="hover:text-black">The Platform</a></li>
+                            <li><a href="#industry" className="hover:text-black">Who It’s For</a></li>
+                            <li><a href="#how-it-works" className="hover:text-black">How It Works</a></li>
+                            <li><a href="#community" className="hover:text-black">Community</a></li>
+                            <li><a href="#business" className="hover:text-black">Business & Schools</a></li>
                         </ul>
                     </div>
 
@@ -52,14 +53,18 @@ function Footer() {
 
                         <div className="flex flex-col gap-4">
                             {/* Google Play */}
-                            <div className="h-12 w-40 rounded-lg" >
-                                <img src={apple_badge} alt="" />
-                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.omni.main">
+                                <div className="h-12 w-40 rounded-lg" >
+                                    <img className="w-full" src={play_store__badge} alt="" />
+                                </div>
+                            </a>
 
                             {/* App Store */}
-                            <div className="h-12 w-40 rounded-lg" >
-                                <img src={play_store__badge} alt="" />
-                            </div>
+                            <a href="https://apps.apple.com/pk/app/omni-connects/id6444658082">
+                                <div className="h-12 w-40 rounded-lg" >
+                                    <img className="w-full" src={apple_badge} alt="" />
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -77,14 +82,18 @@ function Footer() {
 
                     {/* Social Icons */}
                     <div className="flex items-center gap-4">
-                        {[Instagram, Facebook, Twitter, Linkedin, Youtube].map((Icon, i) => (
-                            <div
+                        {socials.map(({ icon: Icon, link }, i) => (
+                            <a
                                 key={i}
-                                className="flex h-9 w-9 items-center justify-center rounded-lg bg-orange-100 text-orange-500
-                       transition hover:bg-orange-500 hover:text-white cursor-pointer"
+                                href={link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex h-9 w-9 items-center justify-center rounded-lg
+                       bg-orange-100 text-orange-500 transition
+                       hover:bg-orange-500 hover:text-white"
                             >
                                 <Icon className="h-4 w-4" />
-                            </div>
+                            </a>
                         ))}
                     </div>
                 </div>
@@ -94,3 +103,11 @@ function Footer() {
 }
 
 export default Footer;
+
+const socials = [
+    { icon: Facebook, link: "https://www.facebook.com/omniconnects/?_rdc=2&_rdr" },
+    { icon: Instagram, link: "https://www.instagram.com/omni.connects/?igshid=MjEwN2IyYWYwYw%3D%3D" },
+    { icon: Youtube, link: "https://www.youtube.com/@omni.connects" },
+    { icon: Linkedin, link: "https://linkedin.com/company/omni-connects/" },
+    { icon: Twitter, link: "https://www.google.com/url?q=https://twitter.com/omniconnects&sa=D&source=apps-viewer-frontend&ust=1725626761956628&usg=AOvVaw080J2JEiLLm7bG4B4ZorXA&hl=en&source=gmail" },
+];

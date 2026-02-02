@@ -73,7 +73,7 @@ function AboutSection() {
                         </div>
 
                         {/* STATS CARDS */}
-                        <div className="mt-10 flex gap-5 flex-wrap">
+                        <div className="mt-10 flex gap-5 flex-wrap justify-center md:justify-start">
                             {stats.map((item, index) => (
                                 <GradientCard
                                     key={index}

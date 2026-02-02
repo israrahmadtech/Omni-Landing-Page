@@ -10,7 +10,7 @@ function Header() {
     return (
         <>
             {/* HEADER */}
-            <header className="px-8 py-6">
+            <header className="px-8 py-4 sm:py-6">
                 <div className="flex items-center justify-between">
 
                     {/* Logo */}
@@ -24,7 +24,7 @@ function Header() {
                             <li><a href="#home" className="hover:text-black">Home</a></li>
                             <li><a href="#about" className="hover:text-black">About</a></li>
                             <li><a href="#platform" className="hover:text-black">The Platform</a></li>
-                            <li><a href="#for" className="hover:text-black">Who It’s For</a></li>
+                            <li><a href="#industry" className="hover:text-black">Who It’s For</a></li>
                             <li><a href="#how-it-works" className="hover:text-black">How It Works</a></li>
                             <li><a href="#community" className="hover:text-black">Community</a></li>
                             <li><a href="#business" className="hover:text-black">Business & Schools</a></li>
@@ -91,7 +91,7 @@ function Header() {
                     <li><a href="#home" className="hover:text-black" onClick={() => setOpen(false)}>Home</a></li>
                     <li><a href="#about" className="hover:text-black" onClick={() => setOpen(false)}>About</a></li>
                     <li><a href="#platform" className="hover:text-black" onClick={() => setOpen(false)}>The Platform</a></li>
-                    <li><a href="#for" className="hover:text-black" onClick={() => setOpen(false)}>Who It’s For</a></li>
+                    <li><a href="#industry" className="hover:text-black" onClick={() => setOpen(false)}>Who It’s For</a></li>
                     <li><a href="#how-it-works" className="hover:text-black" onClick={() => setOpen(false)}>How It Works</a></li>
                     <li><a href="#community" className="hover:text-black" onClick={() => setOpen(false)}>Community</a></li>
                     <li><a href="#business" className="hover:text-black" onClick={() => setOpen(false)}>Business & Schools</a></li>

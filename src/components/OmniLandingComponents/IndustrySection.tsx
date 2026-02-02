@@ -5,7 +5,7 @@ import wellnessImg from "../../assets/images/industry-img-4.jpg";
 
 function IndustrySection() {
     return (
-        <section className="py-10">
+        <section id="industry" className="py-10">
             <div className="bg-black py-28 lg:mx-20 rounded-3xl md:rounded-[64px]">
                 <div className="my-container">
 
@@ -16,7 +16,7 @@ function IndustrySection() {
                     </h2>
 
                     {/* Cards */}
-                    <div className="mt-10 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="mt-10 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                         {industries.map((item, index) => (
                             <div
                                 key={index}

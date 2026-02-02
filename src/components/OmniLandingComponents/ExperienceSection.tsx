@@ -2,7 +2,7 @@ import Button from "./Button";
 
 function ExperienceSection() {
     return (
-        <section className="bg-[#FDFBF7] py-32">
+        <section id="how-it-works" className="bg-[#FDFBF7] py-32">
             <div className="my-container text-center">
 
                 {/* Badge */}

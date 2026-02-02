@@ -2,7 +2,7 @@ import GlassCard from "./GlassEffectCard";
 
 function BookingModesSection() {
     return (
-        <section className="py-24">
+        <section id="business" className="py-24">
             <div className="sm:my-container bg-black py-15 sm:py-28 lg:mx-20 rounded-3xl md:rounded-[64px]">
 
                 <div className="my-container">

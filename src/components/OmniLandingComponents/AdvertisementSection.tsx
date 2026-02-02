@@ -34,7 +34,7 @@ function AdvertisingSection() {
                             <Button
                                 icon={<ArrowRight size={20} />}
                                 variant="primary"
-                                className="bg-white text-black hover:bg-white/90"
+                                className="cursor-pointer bg-white text-black hover:bg-white/90"
                             >
                                 Run Ads on OMNI
                             </Button>

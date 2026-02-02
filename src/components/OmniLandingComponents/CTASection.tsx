@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "./Button";
 
 function CTASection() {
@@ -28,12 +29,14 @@ function CTASection() {
 
                     {/* CTA Button */}
                     <div className="mt-5 sm:mt-10 2xl:mt-20">
-                        <Button
-                            variant="primary"
-                            className="bg-orange-500 text-white hover:bg-orange-600"
-                        >
-                            JOIN OMNI CONNECTS
-                        </Button>
+                        <Link to="/">
+                            <Button
+                                variant="primary"
+                                className="cursor-pointer bg-orange-500 text-white hover:bg-orange-600"
+                            >
+                                JOIN OMNI CONNECTS
+                            </Button>
+                        </Link>
                     </div>
 
                 </div>
