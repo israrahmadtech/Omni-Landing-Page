@@ -4,7 +4,7 @@ import Button from "./Button";
 function CTASection() {
     return (
         <section className="py-15 sm:py-24">
-            <div className="my-container relative overflow-hidden bg-gradient-to-b from-[#FDFBF7] via-[#FFF5F1] to-[#E8F1FF] py-15 sm:py-32 rounded-[60px]">
+            <div className="my-container relative overflow-hidden bg-gradient-to-b from-[#FDFBF7] via-[#FFF5F1] to-[#E8F1FF] py-15 sm:py-32 xl:py-42 2xl:py-52 rounded-[60px]">
 
                 {/* Background OMNI watermark */}
                 <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
