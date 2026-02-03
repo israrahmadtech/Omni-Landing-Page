@@ -1,8 +1,6 @@
 import React from 'react';
-import Button from './Button';
 import Header from './Header';
 import heroImg from "../../assets/images/hero-img.png"
-import { Link } from 'react-router-dom';
 
 const Hero: React.FC = () => {
     return (
@@ -22,29 +20,6 @@ const Hero: React.FC = () => {
                                     <span className="block">OVIEDO</span>
                                 </h1>
                                 <div className="absolute -bottom-20 -left-24 w-[35vw] h-[35vw] bg-[#6347EB33] rounded-full blur-2xl pointer-events-none"></div>
-                            </div>
-
-                            {/* Bottom Tagline and CTA */}
-                            <div className="relative z-40 flex flex-col lg:flex-row items-start lg:items-center justify-between mt-12 lg:mt-30">
-                                {/* Heading */}
-                                <div className="space-y-4 lg:w-1/2">
-                                    <h2 className="text-2xl lg:text-3xl xl:text-4xl font-semibold text-white leading-snug md:leading-tight">
-                                        Turning Talent Into Visibility,
-                                        <br className='hidden sm:inline' />
-                                        Opportunity, And Lasting Success
-                                        <br className='hidden sm:inline' />
-                                        With OMNI CONNECTS.
-                                    </h2>
-                                </div>
-                                {/* CTA Buttons */}
-                                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-6 lg:pt-0 lg:w-auto">
-                                    <Link to="/">
-                                        <Button variant="primary" className="w-full sm:w-auto cursor-pointer">Join OMNI CONNECTS</Button>
-                                    </Link>
-                                    <Link to="/">
-                                        <Button variant="secondary" className="w-full sm:w-auto cursor-pointer">Learn More</Button>
-                                    </Link>
-                                </div>
                             </div>
 
                             {/* Center Content - Image with Glass Effect */}

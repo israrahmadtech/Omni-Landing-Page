@@ -38,7 +38,7 @@ const ProblemSection: React.FC = () => {
                 </GlassCard>
 
                 {/* Heading */}
-                <h1 className="text-center text-2xl sm:text-4xl md:text-5xl font-bold leading-tight text-white">
+                <h1 className="text-center text-2xl sm:text-4xl 2xl:text-5xl font-bold leading-tight text-white">
                     The problem he saw & Refused <br /> <span className="text-orange-400">to Ignore</span>
                 </h1>
 

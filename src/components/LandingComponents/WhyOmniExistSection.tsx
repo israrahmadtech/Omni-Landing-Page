@@ -58,59 +58,59 @@ const WhyOmniExistsSection: React.FC = () => {
             <div className="max-w-7xl mx-auto flex flex-col items-center">
 
                 {/* Small Badge */}
-                <GlassCard className="px-4 sm:px-7 py-1 sm:py-2 rounded-full mb-6">
-                    <span className="text-orange-500 text-sm font-semibold uppercase">
+                <GlassCard className="px-4 2xl:px-7 py-1 2xl:py-2 rounded-full mb-3 2xl:mb-6">
+                    <span className="text-orange-500 text-xs 2xl:text-sm font-semibold uppercase">
                         The Omni Connects Solution
                     </span>
                 </GlassCard>
 
                 {/* Heading */}
-                <h2 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold">
+                <h2 className="text-center text-2xl sm:text-3xl lg:text-3.5xl 2xl:text-5xl font-bold">
                     Why <span className="text-orange-500">OMNI CONNECTS</span> Exists
                 </h2>
 
                 {/* Sub Text */}
-                <p className="text-center text-gray-400 max-w-2xl mt-4 text-sm sm:text-base">
+                <p className="text-center text-gray-400 max-w-2xl mt-4 text-sm 2xl:text-base">
                     OMNI CONNECTS isn't just another app — it's an ecosystem designed by
                     someone who's lived the struggle and built the solution.
                 </p>
 
                 {/* Cards Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 w-full">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 2xl:mt-12 w-full">
                     {features.map((item, index) => (
-                        <GlassCard key={index} className="p-6 flex flex-col gap-4">
+                        <GlassCard key={index} className="p-4 2xl:p-6 flex flex-col gap-4">
 
                             {/* Icon */}
-                            <GlassCard className="w-fit p-3">{item.icon}</GlassCard>
+                            <GlassCard className="w-fit p-2 2xl:p-3 rounded-xl 2xl:rounded-2xl">{item.icon}</GlassCard>
 
                             {/* Title */}
-                            <h3 className="text-lg font-semibold mb-2 mt-5">{item.title}</h3>
+                            <h3 className="text-base 2xl:text-lg font-semibold mb-2 mt-2 2xl:mt-5">{item.title}</h3>
 
                             {/* Description */}
-                            <p className="text-gray-400 text-sm leading-relaxed">{item.desc}</p>
+                            <p className="text-gray-400 text-xs 2xl:text-sm leading-relaxed">{item.desc}</p>
 
                         </GlassCard>
                     ))}
                 </div>
 
                 {/* Bottom Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 mt-10">
+                <div className="flex flex-col sm:flex-row gap-4 mt-5 2xl:mt-10">
 
-                    <GlassCard className="p-3">
+                    <GlassCard className="p-2 2xl:p-3">
                         <div className="flex items-center gap-2">
                             <GlassCard className="p-2 w-fit rounded-lg">
                                 <BadgeCheck className="w-4 h-4 text-orange-500" />
                             </GlassCard>
-                            <span className="text-sm">Branding & Credibility Tools</span>
+                            <span className="text-xs 2xl:text-sm">Branding & Credibility Tools</span>
                         </div>
                     </GlassCard>
 
-                    <GlassCard className="p-3">
+                    <GlassCard className="p-2 2xl:p-3">
                         <div className="flex items-center gap-2">
                             <GlassCard className="p-2 w-fit rounded-lg">
                                 <ShieldCheck className="w-4 h-4 text-orange-500" />
                             </GlassCard>
-                            <span className="text-sm">Secure Payment Processing</span>
+                            <span className="text-xs 2xl:text-sm">Secure Payment Processing</span>
                         </div>
                     </GlassCard>
 
@@ -118,7 +118,7 @@ const WhyOmniExistsSection: React.FC = () => {
 
                 {/* CTA Button */}
                 <Link to="/">
-                    <Button variant="primary" className="w-full sm:w-auto mt-10 cursor-pointer">Explore OMNI CONNECTS</Button>
+                    <Button variant="primary" className="w-full sm:w-auto mt-5 2xl:mt-10 cursor-pointer">Explore OMNI CONNECTS</Button>
                 </Link>
 
             </div>

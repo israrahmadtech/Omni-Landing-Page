@@ -15,7 +15,7 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
     const baseStyles =
         'flex items-center justify-center gap-2 rounded-full font-medium transition-all duration-300 ' +
-        'px-4 py-2 text-sm md:px-6 md:py-3 md:text-base xl:px-8 xl:py-4 lg:text-lg';
+        'px-4 py-2 text-sm md:px-6 md:py-3 md:text-base 2xl:px-8 2xl:py-4 2xl:text-lg';
 
     const variantStyles = {
         primary:
