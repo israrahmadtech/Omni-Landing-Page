@@ -4,12 +4,12 @@ import GlassCard from './GlassEffectCard';
 
 export default function AboutSection() {
     return (
-        <section id='about' className="min-h-screen text-white py-8 md:p-16 md:py-40">
+        <section id='about' className="min-h-screen text-white py-8 md:p-16 md:py-40 mt-30">
             <div className="my-container">
                 {/* Main Content Grid */}
                 <div className="grid grid-col-1 lg:grid-cols-[500px_1fr] 2xl:grid-cols-[600px_1fr] items-stretch gap-10 lg:gap-0 2xl:gap-20">
                     {/* Left Column - Image */}
-                    <div className="relative w-full max-w-[400px] xl:w-[545px] h-[400px] lg:h-full xl:h-[545px]">
+                    <div className="relative w-full max-w-[400px] xl:w-[545px] h-[400px] lg:h-full xl:h-[516px] 2xl:w-full 2xl:max-w-full 2xl:h-auto">
                         <div className="w-full h-full">
                             <img
                                 src={aboutImg}
@@ -37,16 +37,16 @@ export default function AboutSection() {
                             </button>
                         </GlassCard>
                         {/* Empire Heading */}
-                        <h1 className='text-2xl sm:3xl lg:text-4xl 2xl:text-5xl font-bold mb-2 lg:mb-4 2xl:mb-8 leading-tight'>
+                        <h1 className='text-2xl sm:3xl lg:text-4xl 2xl:text-7xl font-bold mb-2 lg:mb-4 2xl:mb-8 leading-tight'>
                             From the Barbershop to Building an <span className="text-orange-400">Empire</span>
                         </h1>
 
                         {/* Description Paragraphs */}
-                        <p className="text-gray-400 text-sm lg:text-base 2xl:text-lg leading-relaxed">
+                        <p className="text-gray-400 text-sm lg:text-base 2xl:text-xl leading-relaxed 2xl:max-w-2xl">
                             Hector Oviedo's journey began behind the chair, where he discovered a deeper calling: empowering the next generation of beauty professionals to succeed not just creatively, but financially.
                         </p>
 
-                        <p className="text-gray-400 text-sm lg:text-base 2xl:text-lg leading-relaxed">
+                        <p className="text-gray-400 text-sm lg:text-base 2xl:text-xl leading-relaxed 2xl:max-w-2xl">
                             As an educator, mentor, and entrepreneur, Hector witnessed firsthand the challenges students face after graduation—lack of clients, unstable income, and no clear path forward. This inspired him to create OMNI CONNECTS: a revolutionary platform designed to bridge the gap between education and real-world success.
                         </p>
 

@@ -14,12 +14,13 @@ const Hero: React.FC = () => {
                         {/* Left Content */}
                         <div className="relative space-y-8">
                             {/* Large Text */}
-                            <div className="relative space-y-4">
+                            <div className="relative z-10 space-y-4">
                                 <h1 className="text-[21vw] font-bold leading-[80%] text-[#aaa]">
                                     <span className="block">HECTOR</span>
                                     <span className="block">OVIEDO</span>
                                 </h1>
-                                <div className="absolute -bottom-20 -left-24 w-[35vw] h-[35vw] bg-[#6347EB33] rounded-full blur-2xl pointer-events-none"></div>
+                                <div className="absolute z-20 -top-[10%] right-0 w-0 h-0 shadow-[0_0_25vw_20vw_rgba(239,94,26,0.4)] sm:shadow-[0_0_15vw_20vw_rgba(239,94,26,0.4)] pointer-events-none"></div>
+                                <div className="absolute z-20 bottom-[10%] left-0 w-0 h-0 shadow-[0_0_25vw_20vw_#6347EB33] sm::shadow-[0_0_15vw_20vw_#6347EB33] pointer-events-none"></div>
                             </div>
 
                             {/* Center Content - Image with Glass Effect */}
@@ -45,13 +46,6 @@ const Hero: React.FC = () => {
                     </div>
                 </div>
 
-            </div>
-            {/* Background Decorative Elements */}
-            <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
-                <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
-            </div>
-            <div className="absolute z-20 top-0 left-0 w-screen h-screen overflow-hidden pointer-events-none">
-                <div className="absolute -top-16 -right-28 w-[35vw] h-[35vw] bg-[#EF5E1A66] rounded-full blur-3xl pointer-events-none"></div>
             </div>
         </div>
     );
