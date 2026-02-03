@@ -10,17 +10,17 @@ function Header() {
     return (
         <>
             {/* HEADER */}
-            <header className="py-4 sm:py-6">
+            <header className="py-4 sm:py-6 xl:py-3">
                 <div className="flex items-center justify-between">
 
                     {/* Logo */}
-                    <div className="w-20 sm:w-25 md:w-30">
+                    <div className="w-20 sm:w-22 md:w-22">
                         <img className="w-full" src={logo} alt="omni logo" />
                     </div>
 
                     {/* Desktop Nav */}
                     <nav className="flex-1 hidden xl:block">
-                        <ul className="flex items-center gap-8 text-base 2xl:text-lg text-[#A2A2A2] w-fit mx-auto">
+                        <ul className="flex items-center gap-8 text-sm 2xl:text-lg text-[#A2A2A2] w-fit mx-auto">
                             <li><a href="#home" className="hover:text-black">Home</a></li>
                             <li><a href="#about" className="hover:text-black">About</a></li>
                             <li><a href="#platform" className="hover:text-black">The Platform</a></li>
@@ -34,7 +34,7 @@ function Header() {
                     {/* Desktop CTA */}
                     <div className="hidden xl:block">
                         <Link to="/">
-                            <Button icon={<ArrowRight size={20} />} variant="primary" className="text-white bg-orange-500 hover:bg-orange-600 cursor-pointer xl:text-sm 2xl:text-lg">
+                            <Button icon={<ArrowRight className="w-4" />} variant="primary" className="text-white bg-[#EF5E1A] hover:bg-orange-600 cursor-pointer text-xs xl:text-sm 2xl:text-lg">
                                 Join OMNI CONNECTS
                             </Button>
                         </Link>
@@ -47,7 +47,7 @@ function Header() {
                         <Link to="/" className="hidden sm:flex">
                             <Button
                                 variant="primary"
-                                className="text-white bg-orange-500 hover:bg-orange-600 px-4 py-2 text-sm"
+                                className="text-white bg-[#EF5E1A] hover:bg-orange-600 cursor-pointer text-xs md:text-base 2xl:text-lg"
                             >
                                 Join OMNI Connects
                             </Button>
@@ -104,7 +104,7 @@ function Header() {
                     <Link to="/">
                         <Button
                             variant="primary"
-                            className="text-white bg-orange-500 hover:bg-orange-600 cursor-pointer w-full"
+                            className="text-white bg-[#EF5E1A] hover:bg-orange-600 cursor-pointer w-full"
                         >
                             Join OMNI CONNECTS
                         </Button>

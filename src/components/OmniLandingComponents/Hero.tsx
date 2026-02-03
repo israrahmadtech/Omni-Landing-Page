@@ -17,23 +17,23 @@ const Hero: React.FC = () => {
                 <Header />
 
                 {/* Center Content */}
-                <div className="relative z-10 flex flex-col items-center px-6 mt-10 sm:mt-20 text-center">
+                <div className="relative z-10 flex flex-col items-center px-6 mt-5 2xl:mt-20 text-center">
 
                     {/* Badge */}
 
                     <Button variant="tertiary" icon={<Dot className="relative scale-140" size={25} />} iconPosition={"left"}
-                        className="font-semibold bg-white text-orange-500 hover:bg-white py-2 md:pe-4 md:py-1 overflow-none"
+                        className="font-semibold bg-white text-orange-500 hover:bg-white md:pe-4 py-0.5 2xl:py-2 overflow-none"
                     >
                         NOW LIVE FOR PROFESSIONALS
                     </Button>
 
                     {/* Title */}
-                    <h1 className="my-8 text-[54px] font-bold tracking-tight leading-none text-orange-500 sm:text-[78px] lg:text-[100px]">
-                        OMNI <span className="block text-black">CONNECTS</span>
+                    <h1 className="mt-6 text-[44px] font-bold tracking-tight leading-none text-orange-500 2xl:text-[68px]">
+                        OMNI <span className="text-black">CONNECTS</span>
                     </h1>
 
                     {/* Description */}
-                    <p className="mb-14 max-w-4xl text-base leading-relaxed text-black/60 sm:text-lg lg:text-xl">
+                    <p className="mb-5 max-w-4xl text-base leading-relaxed text-black/60 text-sm sm:text-base 2xl:text-lg">
                         The Digital Home for Beauty, Health & Wellness — where booking,
                         community, commerce, visibility, and growth come together, built
                         by the culture and designed for the future.
@@ -42,15 +42,13 @@ const Hero: React.FC = () => {
                     {/* CTAs */}
                     <div className="flex flex-col gap-4 sm:flex-row sm:gap-6">
                         <Link to="/">
-                            <Button variant="primary" className="cursor-pointer bg-orange-500 hover:bg-orange-600 text-white">
+                            <Button variant="primary" className="text-white bg-[#EF5E1A] hover:bg-orange-600 cursor-pointer text-xs md:text-sm 2xl:text-lg">
                                 Join OMNI Free
                             </Button>
                         </Link>
 
                         <Link to="/">
-                            <Button
-                                variant="secondary"
-                                className="cursor-pointer bg-white text-orange-500 hover:bg-white"
+                            <Button variant="secondary" className="cursor-pointer bg-white text-orange-500 hover:bg-white text-xs xl:text-sm 2xl:text-lg"
                             >
                                 Explore the Platform
                             </Button>

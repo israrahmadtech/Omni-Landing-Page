@@ -7,7 +7,7 @@ function BookingModesSection() {
 
                 <div className="my-container">
                     {/* Heading */}
-                    <h2 className="text-center max-w-4xl mx-auto text-2xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl font-bold leading-tight sm:leading-none text-white">
+                    <h2 className="text-center max-w-4xl mx-auto text-2xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl font-bold leading-tight sm:leading-none text-white">
                         Run Your Business{" "}
                         <span className="text-orange-500">Anywhere.</span>{" "}
                         Grow Everywhere
@@ -18,7 +18,7 @@ function BookingModesSection() {
                     </p>
 
                     {/* Cards */}
-                    <div className="mt-10 sm:mt-15 lg:mt-20 flex flex-wrap lg:flex-nowrap justify-center gap-15">
+                    <div className="mt-10 sm:mt-15 flex flex-wrap lg:flex-nowrap justify-center gap-15">
 
                         {/* At Home */}
                         <GlassCard className="p-10 rounded-[36px] flex flex-col justify-between w-full max-w-xl">

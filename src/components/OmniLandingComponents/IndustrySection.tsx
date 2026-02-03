@@ -6,21 +6,21 @@ import wellnessImg from "../../assets/images/industry-img-4.png";
 function IndustrySection() {
     return (
         <section id="industry" className="py-10">
-            <div className="bg-black py-28 lg:mx-20 rounded-3xl md:rounded-[64px]">
+            <div className="bg-black py-15 2xl:py-28 lg:mx-20 rounded-3xl md:rounded-[64px]">
                 <div className="my-container">
 
                     {/* Heading */}
-                    <h2 className="max-w-2xl text-4xl sm:text-6xl lg:text-7xl font-bold leading-tight text-white">
+                    <h2 className="max-w-2xl text-3xl sm:text-5xl 2xl:text-7xl font-bold leading-tight text-white">
                         Built for the <br />
                         Entire <span className="text-orange-500">Industry</span>
                     </h2>
 
                     {/* Cards */}
-                    <div className="mt-10 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                    <div className="mt-10 2xl:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                         {industries.map((item, index) => (
                             <div
                                 key={index}
-                                className="group relative h-[420px] rounded-[32px] overflow-hidden"
+                                className="group relative h-[320px] 2xl:h-[420px] rounded-[32px] overflow-hidden"
                             >
                                 {/* Image */}
                                 <img
@@ -34,7 +34,7 @@ function IndustrySection() {
                                 <div className="absolute inset-0 bg-black/30" />
 
                                 {/* Title */}
-                                <h3 className="absolute bottom-6 left-6 text-4xl font-semibold text-white">
+                                <h3 className="absolute bottom-6 left-6 text-xl sm:text-3xl 2xl:text-4xl font-semibold text-white">
                                     {item.title}
                                 </h3>
                             </div>
