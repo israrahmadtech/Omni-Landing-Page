@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
     return (
         <section
             id="home"
-            className="relative overflow-hidden bg-gradient-to-b from-[#FDFBF7] via-[#FFF5F1] to-[#E8F1FF]"
+            className="min-h-screen relative overflow-hidden bg-gradient-to-b from-[#FDFBF7] via-[#FFF5F1] to-[#E8F1FF]"
         >
             <div className="my-container">
                 <Header />
@@ -72,13 +72,3 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
-
-
-
-//         Background Decorative Elements
-// < div className = "absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none" >
-//     <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
-//         </ >
-// <div className="absolute z-20 top-0 left-0 w-screen h-screen overflow-hidden pointer-events-none">
-//     <div className="absolute -top-16 -right-28 w-[35vw] h-[35vw] bg-[#EF5E1A66] rounded-full blur-3xl pointer-events-none"></div>
-// </div>

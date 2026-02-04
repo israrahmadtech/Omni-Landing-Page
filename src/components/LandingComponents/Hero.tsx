@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './Header';
 import heroImg from "../../assets/images/hero-img.png"
+import { Link } from 'react-router-dom';
+import Button from './Button';
 
 const Hero: React.FC = () => {
     return (
@@ -21,6 +23,29 @@ const Hero: React.FC = () => {
                                 </h1>
                                 <div className="absolute z-20 -top-[10%] right-0 w-0 h-0 shadow-[0_0_25vw_20vw_rgba(239,94,26,0.4)] sm:shadow-[0_0_15vw_20vw_rgba(239,94,26,0.4)] pointer-events-none"></div>
                                 <div className="absolute z-20 bottom-[10%] left-0 w-0 h-0 shadow-[0_0_25vw_20vw_#6347EB33] sm::shadow-[0_0_15vw_20vw_#6347EB33] pointer-events-none"></div>
+                            </div>
+
+                            {/* Bottom Tagline and CTA */}
+                            <div className="relative z-40 flex md:hidden flex-col lg:flex-row items-start lg:items-center justify-between mt-12 lg:mt-30">
+                                {/* Heading */}
+                                <div className="space-y-4 lg:w-1/2">
+                                    <h2 className="text-2xl lg:text-3xl xl:text-4xl font-semibold text-white leading-snug md:leading-tight">
+                                        Turning Talent Into Visibility,
+                                        <br className='hidden sm:inline' />
+                                        Opportunity, And Lasting Success
+                                        <br className='hidden sm:inline' />
+                                        With OMNI CONNECTS.
+                                    </h2>
+                                </div>
+                                {/* CTA Buttons */}
+                                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-6 lg:pt-0 lg:w-auto">
+                                    <Link to="/">
+                                        <Button variant="primary" className="w-full sm:w-auto cursor-pointer">Join OMNI CONNECTS</Button>
+                                    </Link>
+                                    <Link to="/">
+                                        <Button variant="secondary" className="w-full sm:w-auto cursor-pointer">Learn More</Button>
+                                    </Link>
+                                </div>
                             </div>
 
                             {/* Center Content - Image with Glass Effect */}
