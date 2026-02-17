@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
     return (
         <section
             id="home"
-            className="min-h-screen relative overflow-hidden bg-gradient-to-b from-[#FDFBF7] via-[#FFF5F1] to-[#E8F1FF]"
+            className="relative overflow-hidden bg-gradient-to-b from-[#FDFBF7] via-[#FFF5F1] to-[#E8F1FF]"
         >
             <div className="my-container">
                 <Header />
@@ -42,13 +42,13 @@ const Hero: React.FC = () => {
                     {/* CTAs */}
                     <div className="flex flex-col gap-4 sm:flex-row sm:gap-6">
                         <Link to="/">
-                            <Button variant="primary" className="text-white bg-[#EF5E1A] hover:bg-orange-600 cursor-pointer text-xs md:text-sm 2xl:text-lg">
+                            <Button variant="primary" className="text-white bg-[#EF5E1A] hover:bg-orange-600 cursor-pointer text-xs md:text-sm 2xl:text-xl">
                                 Join OMNI Free
                             </Button>
                         </Link>
 
                         <Link to="/">
-                            <Button variant="secondary" className="cursor-pointer bg-white text-orange-500 hover:bg-white text-xs xl:text-sm 2xl:text-lg"
+                            <Button variant="secondary" className="cursor-pointer bg-white text-orange-500 hover:bg-white text-xs xl:text-sm 2xl:text-xl"
                             >
                                 Explore the Platform
                             </Button>

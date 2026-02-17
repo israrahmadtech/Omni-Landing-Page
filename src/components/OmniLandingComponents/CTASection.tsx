@@ -32,7 +32,7 @@ function CTASection() {
                         <Link to="/">
                             <Button
                                 variant="primary"
-                                className="cursor-pointer bg-orange-500 text-white hover:bg-orange-600"
+                                className="cursor-pointer bg-orange-500 text-white hover:bg-orange-600 2xl:text-xl"
                             >
                                 JOIN OMNI CONNECTS
                             </Button>

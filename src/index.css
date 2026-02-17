@@ -3,7 +3,13 @@
 html {
   scroll-behavior: smooth;
 }
-
+body{
+  background-color: #eee;
+}
+#root{
+  max-width: 1920px;
+  margin: 0 auto;
+}
 .my-container {
   max-width: 90%;
   margin: 0 auto;

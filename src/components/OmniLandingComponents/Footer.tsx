@@ -19,11 +19,11 @@ function Footer() {
 
                     {/* Platform */}
                     <div>
-                        <h4 className="text-base font-semibold text-black mb-4">
+                        <h4 className="text-base 2xl:text-xl font-semibold text-black mb-4">
                             Platform
                         </h4>
 
-                        <ul className="space-y-3 text-sm text-black/60">
+                        <ul className="space-y-3 text-sm 2xl:text-base text-black/60">
                             <li><a href="#home" className="hover:text-black">Home</a></li>
                             <li><a href="#about" className="hover:text-black">About</a></li>
                             <li><a href="#platform" className="hover:text-black">The Platform</a></li>
@@ -36,18 +36,18 @@ function Footer() {
 
                     {/* Support */}
                     <div>
-                        <h4 className="text-base font-semibold text-black mb-4">
+                        <h4 className="text-base 2xl:text-xl font-semibold text-black mb-4">
                             Support
                         </h4>
 
-                        <ul className="space-y-3 text-sm text-black/60">
+                        <ul className="space-y-3 text-sm 2xl:text-base text-black/60">
                             <li>Community Guidelines</li>
                         </ul>
                     </div>
 
                     {/* Install App */}
                     <div>
-                        <h4 className="text-base font-semibold text-black mb-4">
+                        <h4 className="text-base 2xl:text-xl font-semibold text-black mb-4">
                             Install App
                         </h4>
 
@@ -76,7 +76,7 @@ function Footer() {
                 <div className="mt-6 flex flex-col md:flex-row items-center justify-between gap-6">
 
                     {/* Copyright */}
-                    <p className="text-sm text-black/60">
+                    <p className="text-sm 2xl:text-xl text-black/60">
                         © 2026 omni. All rights reserved
                     </p>
 
@@ -88,11 +88,11 @@ function Footer() {
                                 href={link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex h-9 w-9 items-center justify-center rounded-lg
+                                className="flex h-9 w-9 2xl:h-12 2xl:w-12 items-center justify-center rounded-lg
                        bg-orange-100 text-orange-500 transition
                        hover:bg-orange-500 hover:text-white"
                             >
-                                <Icon className="h-4 w-4" />
+                                <Icon className="h-4 w-4 2xl:h-6 2xl:w-6" />
                             </a>
                         ))}
                     </div>

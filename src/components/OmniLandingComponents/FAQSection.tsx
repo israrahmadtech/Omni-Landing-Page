@@ -56,7 +56,7 @@ function FAQSection() {
                 <div className="flex justify-center">
                     <Button
                         variant="tertiary"
-                        className="mb-6 bg-white text-orange-500 px-5 py-1.5 font-semibold"
+                        className="mb-6 bg-white text-orange-500 px-5 py-1.5 font-semibold 2xl:text-xl"
                     >
                         FAQ
                     </Button>
