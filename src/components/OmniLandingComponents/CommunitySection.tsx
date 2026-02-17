@@ -49,7 +49,7 @@ function CommunitySection() {
 
                     <div className="mt-10 2xl:mt-15">
                         <Link to="/">
-                            <Button icon={<ArrowRight size={20} />} variant="primary" className="cursor-pointer bg-black text-white">
+                            <Button icon={<ArrowRight size={20} />} variant="primary" className="cursor-pointer bg-black text-white 2xl:text-xl">
                                 EXPLORE THE COMMUNITY
                             </Button>
                         </Link>

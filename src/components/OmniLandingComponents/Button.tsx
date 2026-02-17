@@ -22,11 +22,11 @@ const Button: React.FC<ButtonProps> = ({
 
     const variantStyles = {
         primary:
-            'px-4 py-2 text-sm md:px-4 md:py-2 md:text-lg' +
+            'px-4 py-2 text-sm md:px-4 2xl:px-5 md:py-2 2xl:py-3 md:text-lg' +
             'shadow-md md:shadow-lg hover:shadow-xl',
 
         secondary:
-            'px-4 py-2 text-sm md:px-4 md:py-1.5 md:text-base ' +
+            'px-4 py-2 text-sm md:px-4 md:py-1.5 2xl:px-6 2xl:py-2.5 md:text-base ' +
             'relative text-orange-500 backdrop-blur-sm ' +
             'bg-[linear-gradient(180deg,_rgba(239,106,31,0.20)_0%,_rgba(239,94,26,0.06)_100%)]',
 

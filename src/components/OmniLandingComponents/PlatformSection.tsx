@@ -10,7 +10,7 @@ function PlatformSection() {
             <div className="my-container">
 
                 {/* HEADER */}
-                <div className="text-center 2xl:max-w-3xl mx-auto">
+                <div className="text-center 2xl:max-w-5xl mx-auto">
                     <Button
                         variant="tertiary"
                         className="bg-white text-orange-500 px-5 py-1.5 font-semibold"
@@ -18,11 +18,11 @@ function PlatformSection() {
                         OMNI INFRASTRUCTURE
                     </Button>
 
-                    <h2 className="mt-3 2xl:mt-6 text-3xl sm:text-4xl xl::text-5xl 2xl::text-6xl font-bold text-black">
+                    <h2 className="mt-3 2xl:mt-6 text-3xl sm:text-4xl xl::text-5xl 2xl:text-6xl font-bold text-black">
                         One <span className="text-orange-500">Platform</span> Infinite Possibility
                     </h2>
 
-                    <p className="mt-2 2xl:mt-4 text-black/60 text-base text-sm sm:text-base 2xl::text-lg">
+                    <p className="mt-2 2xl:mt-4 text-black/60 text-base text-sm sm:text-base 2xl:text-xl">
                         We've consolidated everything you need to run your business,
                         grow your brand, and connect with your community.
                     </p>

@@ -11,14 +11,14 @@ function InfraStructureSection() {
         {cardsData.map((item, index) => (
           <GradientCard
             key={index}
-            className="rounded-3xl p-8 sm:p-10 text-center w-full max-w-sm"
+            className="rounded-3xl p-8 sm:p-10 text-center w-full max-w-sm 2xl:max-w-md"
           >
             <h3 className="text-2xl sm:text-2.5xl 2xl:text-4xl font-semibold text-black">
               {item.title.replace(".", "")}
               <span className="text-orange-500 font-bold">.</span>
             </h3>
 
-            <p className="mt-3 text-sm sm:text-base 2xl:text-lg leading-relaxed text-black/50">
+            <p className="mt-3 text-sm sm:text-base 2xl:text-xl leading-relaxed text-black/50">
               {item.description}
             </p>
           </GradientCard>

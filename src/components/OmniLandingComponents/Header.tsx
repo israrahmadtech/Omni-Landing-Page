@@ -14,7 +14,7 @@ function Header() {
                 <div className="flex items-center justify-between">
 
                     {/* Logo */}
-                    <div className="w-20 sm:w-22 md:w-22">
+                    <div className="w-20 sm:w-22 md:w-22 2xl:w-25">
                         <img className="w-full" src={logo} alt="omni logo" />
                     </div>
 
